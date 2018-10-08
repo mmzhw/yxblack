@@ -1,0 +1,15 @@
+.subject-area {
+    width: 100%;
+}
+
+.subject-area .subject {
+    display: inline-block;
+    padding-top: 15px;
+    width: 50%;
+    border-top: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+}
+
+.subject-area .subject:last-child {
+    border-right: none;
+}

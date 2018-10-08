@@ -1,0 +1,40 @@
+.clear {
+    clear: both;
+}
+
+.OTTWrapper {
+    display: flex;
+}
+
+.OTTWrapper .leftMenu {
+    width: 190px;
+}
+
+.OTTWrapper .rightPre {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.OTTWrapper .rightPre .top {
+    width: 100%;
+    border: 1px solid #DDD;
+}
+
+.OTTWrapper .rightPre .top .title {
+    width: 100%;
+    height: 93px;
+    padding: 16px;
+    border-bottom: 1px solid #CCC;
+}
+
+.OTTWrapper .rightPre .top .title p {
+    font-size: 24px;
+}
+
+.OTTWrapper .rightPre .top .title span {
+    font-size: 14px;
+}
+
+.OTTWrapper .rightPre .top .content {
+    min-height: 224px;
+}

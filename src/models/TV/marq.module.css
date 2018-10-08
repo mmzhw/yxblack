@@ -1,0 +1,25 @@
+.marq-label {
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.marq-opened .valid-period,
+.marq-closed .valid-period {
+    color: #BCBCBC;
+    font-size: 13px;
+    line-height: 50px;
+}
+
+.table {
+    border-top: 1px solid #CCC;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.table .text-col {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 100px;
+}

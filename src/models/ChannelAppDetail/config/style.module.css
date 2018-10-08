@@ -1,0 +1,67 @@
+.config {
+    padding: 20px 10px;
+}
+
+.config-title {
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.config-detail {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #979797;
+}
+
+.template-type {
+    height: 65px;
+    padding-top: 20px;
+    border-bottom: 1px solid #979797;
+}
+
+.config-input {
+    height: 35px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #979797;
+    outline: none;
+}
+
+.config-save {
+    margin: 40px 0 0 150px;
+}
+
+.config-switch {
+    padding: 5px 10px;
+}
+
+.template-type-wrap {
+    display: inline-block;
+}
+
+.template-type-wrap > div {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.template-type-wrap > div p {
+    text-align: center;
+}
+
+.active {
+    border: 1px solid #4A90E2;
+}
+
+.config-upload {
+    padding: 0 10px;
+}
+
+.config-upload span {
+    font-size: 12px;
+    color: #9B9B9B;
+    line-height: 30px;
+}

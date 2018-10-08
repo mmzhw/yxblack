@@ -1,0 +1,38 @@
+.label-input-title {
+    font-size: 14px;
+}
+
+.label-input-text {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+    outline: none;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+}
+
+.label-input-text::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.label-input-text:-moz-placeholder {
+    color: #999;
+}
+
+.label-input-text::-moz-placeholder {
+    color: #999;
+}
+
+.label-input-text:-ms-input-placeholder {
+    color: #999;
+}
+
+.add-button-tooltip-text {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    color: #FFF;
+}

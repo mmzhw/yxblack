@@ -1,0 +1,17 @@
+.liveOtt {
+    width: 100%;
+}
+
+.liveOtt > div > button {
+    margin: 0 20px 20px 0;
+}
+
+.configModule > p {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px 0 20px 4%;
+}
+
+.configModule .saveButton {
+    margin-right: 20px;
+}

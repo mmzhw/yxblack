@@ -1,0 +1,25 @@
+.config-area {
+    flex: 1;
+}
+
+.config-area .header {
+    height: 93px;
+    padding: 16px;
+    font-size: 24px;
+    border: 1px solid #DDD;
+}
+
+.button-wrap {
+    padding-bottom: 30px;
+}
+
+.button-wrap .curr-button {
+    background: #108EE9;
+    color: #FFF;
+}
+
+.button-wrap .curr-button:hover,
+.button-wrap .curr-button:focus {
+    color: #FFF;
+    background-color: #108EE9;
+}

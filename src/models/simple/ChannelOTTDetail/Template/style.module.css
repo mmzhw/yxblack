@@ -1,0 +1,107 @@
+.module {
+    padding: 20px;
+}
+
+.videoInfo {
+    cursor: pointer;
+}
+
+.emptyImg {
+    background: url('../../../../assets/none.png') no-repeat center, #F9F9F9 !important;
+    background-size: 80px auto !important;
+}
+
+.module > p {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1084px;
+    margin: auto;
+}
+
+.module .swiperWrapper {
+    width: 1084px;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.module .swiperWrapper > div > div {
+    background: #F9F9F9;
+    overflow: hidden;
+}
+
+.module .swiperPrev,
+.module .swiperNext {
+    position: absolute;
+    top: 116px;
+    z-index: 99;
+    background-color: #FFCE33;
+    width: 45px;
+    height: 50px;
+    transform: translate(0, -100%);
+}
+
+.module .swiperPrev {
+    left: 0;
+}
+
+.module .swiperNext {
+    right: 0;
+}
+
+.first .normal {
+    width: 213px !important;
+    height: 120px;
+}
+
+.first .subject {
+    width: 350px !important;
+    height: 177px;
+}
+
+.first .nav {
+    width: 177px !important;
+    height: 100px;
+}
+
+.first .normalVertical {
+    width: 118px !important;
+    height: 159px;
+}
+
+.second .big {
+    width: 363px !important;
+    height: 180px;
+}
+
+.second .small {
+    width: 135px !important;
+    height: 180px;
+}
+
+.fourth > div > div.moduleLeft {
+    display: flex;
+    width: 492px !important;
+    background: none;
+    margin-right: 0 !important;
+}
+
+.fourth > div > div.moduleRight {
+    height: 308px !important;
+    width: 453px !important;
+    background: none;
+}
+
+.fourth .big {
+    width: 144px !important;
+    height: 308px;
+    margin-right: 20px;
+}
+
+.fourth .small {
+    width: 131px;
+    height: 144px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}

@@ -1,0 +1,205 @@
+.bookshelfs {
+    width: auto;
+}
+
+.bookshelfs .bookshelf {
+    overflow: hidden;
+    float: left;
+    width: 360px;
+    height: 540px;
+    margin: 0 10px 10px 0;
+    background-size: 100% 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.bookshelfs .bookshelf:hover {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-property: box-shadow;
+}
+
+.bookshelfs .bookshelf .bookshelf-enable {
+    height: 100px;
+    width: 80px;
+    position: relative;
+    margin-right: 0;
+    margin-left: 280px;
+    text-align: center;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.bookshelfs .bookshelf .bookshelf-enable span {
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 88px;
+    background: #CCC;
+    right: -16px;
+    top: -16px;
+    position: relative;
+    user-select: none;
+    transform: rotate(45deg);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.bookshelfs .bookshelf .bookshelf-header {
+    margin-top: -100px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.bookshelfs .bookshelf .bookshelf-header:hover {
+    cursor: move;
+}
+
+.bookshelfs .bookshelf .bookshelf-header .header-name {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.bookshelfs .bookshelf .bookshelf-header .header-img {
+    width: 50px;
+    height: 35px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.bookshelfs .bookshelf .bookshelf-header .header-sub-name {
+    float: left;
+}
+
+.bookshelfs .bookshelf .bookshelf-header .header-sub-name .sub-title {
+    color: #999;
+}
+
+.bookshelfs .bookshelf .bookshelf-body {
+    height: 429px;
+    overflow: hidden;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .bookshelf-body-title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.bookshelfs .bookshelf .bookshelf-body .bookshelf-body-title .body-title-item {
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .bookshelf-body-content {
+    height: 380px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-y: auto;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .body-content-list-item {
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .body-content-list-item span {
+    display: block;
+    margin-top: -50px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .label-list-button {
+    width: 50%;
+    line-height: 50px;
+    float: left;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .label-list-button button {
+    margin: 0;
+    padding: 0;
+    min-width: 80%;
+    height: 32px;
+    margin-top: 9px;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .dehaze {
+    width: 16px;
+    height: 100%;
+    min-width: 16px;
+    font-size: 14px;
+    color: #757575;
+    margin-left: 20px;
+    opacity: 0;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .dehaze:hover {
+    cursor: move;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list .hover-items {
+    height: 50px;
+    margin-top: -50px;
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.bookshelfs .bookshelf .bookshelf-body .body-content-list:hover .dehaze {
+    opacity: 1;
+}
+
+.bookshelfs .bookshelf .bookshelf-footer {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.bookshelfs .bookshelf .bookshelf-footer .bookshelf-footer-actions {
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+
+.bookshelfs .bookshelf .bookshelf-footer .bookshelf-footer-actions .footer-action {
+    height: 100%;
+    float: right;
+    text-align: center;
+    color: #417BFF;
+}
+
+.bookshelfs .bookshelf .bookshelf-footer .bookshelf-footer-actions .footer-action button {
+    width: 90%;
+    padding: 0;
+}
+
+.bookshelfs .addButtonDiv {
+    float: left;
+}
+
+.bookshelfs .addButtonDiv .addButton {
+    width: 360px;
+    height: 540px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 540px;
+    margin-right: 10px;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+}

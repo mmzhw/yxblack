@@ -1,0 +1,138 @@
+.clear {
+    clear: both;
+}
+
+.bookshelfs {
+    width: 100%;
+    position: relative;
+}
+
+.bookshelfs .addButtonDiv {
+    float: left;
+}
+
+.bookshelfs .addButtonDiv .addButton {
+    width: 407px;
+    height: 568px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 540px;
+    margin-right: 10px;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.bookshelf {
+    overflow: hidden;
+    float: left;
+    width: 407px;
+    height: 568px;
+    margin: 0 10px 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    user-select: none;
+    position: relative;
+    cursor: move;
+}
+
+.bookshelf .title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bookshelf .title p {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.bookshelf .title span {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    line-height: 88px;
+    background: #CCC;
+    right: -36px;
+    top: -16px;
+    user-select: none;
+    transform: rotate(45deg);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    color: #FFF;
+}
+
+.bookshelf .subTitle {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+}
+
+.bookshelf .subTitle > div {
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 33.33%;
+}
+
+.bookshelf .content {
+    height: 380px;
+    overflow-y: auto;
+}
+
+.bookshelf .content > div {
+    height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    cursor: move;
+}
+
+.bookshelf .content > div:hover {
+    background: #E6E6E6;
+}
+
+.bookshelf .content > div > div {
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookshelf .content > div .operation button {
+    margin: 10px 2%;
+    width: 22%;
+    padding: 0;
+}
+
+.bookshelf .content > div .operation button i {
+    font-size: 18px;
+}
+
+.bookshelf .content > div > div > div {
+    float: left;
+    margin: 0 5%;
+}
+
+.bookshelf .content > div > div > div > button {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+}
+
+.bookshelf .footer {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.bookshelf .footer button {
+    float: left;
+    width: 14%;
+    padding: 0;
+    margin: 11px 1.33%;
+    color: #49A9EE;
+}

@@ -1,0 +1,60 @@
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -160px 0 0 -320px;
+    width: 640px;
+    height: 320px;
+    padding: 36px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+}
+
+.form button {
+    width: 100%;
+}
+
+.form p {
+    color: #CCC;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.form p span:first-child {
+    margin-right: 16px;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.logo-choosen {
+    border: 1px #1890ff solid;
+    background-color: #1890ff;
+    color:#fff;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.logo span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+    height: 100%;
+}
+.login-header {
+    overflow: hidden;
+}

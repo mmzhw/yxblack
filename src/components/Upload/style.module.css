@@ -1,0 +1,28 @@
+.wrapper {
+    display: inline-block;
+}
+
+.imgText {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.checkPicture {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.modalWrapper > div > div {
+    background: none;
+    box-shadow: none;
+}
+
+.modalWrapper > div > div > div {
+    text-align: center;
+}
+
+.modalWrapper > div > div > button > span {
+    color: #fff;
+}

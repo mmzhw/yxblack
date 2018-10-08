@@ -1,0 +1,25 @@
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    z-index: 99;
+    background-color: #FFCE33;
+    width: 45px;
+    height: 50px;
+    top: 55%;
+    transform: translate(0, -100%);
+    background-size: 50% auto !important;
+}
+
+.my-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: auto;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}

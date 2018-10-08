@@ -1,0 +1,18 @@
+.f-row {
+    margin: 10px 0;
+}
+
+.f-row > .f-label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.f-row > .f-value {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.f-row > .f-value textarea {
+    vertical-align: top;
+}

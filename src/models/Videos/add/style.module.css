@@ -1,0 +1,22 @@
+.card {
+    margin: 5px 0;
+}
+
+.card .grid-box {
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.card .form {
+    position: relative;
+}
+
+.card .form .actions {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.card .img-upload-container {
+    text-align: center;
+}

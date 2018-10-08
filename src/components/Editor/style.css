@@ -1,0 +1,74 @@
+/* stylelint-disable */
+:global {
+    /* $num: 12;
+
+    @while $num <= 20 {
+        .ql-size-$num,
+        .ql-picker-item[data-value='$(num)'] {
+          font-size: $(num)px;
+        }
+        .ql-picker-label[data-value='$(num)']::before,
+        .ql-picker-item[data-value='$(num)']::before{
+          content: $(num)px!important;
+          vertical-align: top;
+        }
+
+        $num: $num + 2;
+    } */
+
+}
+
+:global .ql-size-12,
+:global .ql-picker-item[data-value="12"] {
+    font-size: 12px;
+}
+
+:global .ql-picker-label[data-value="12"]::before,
+:global .ql-picker-item[data-value="12"]::before {
+    content: '12px' !important;
+    vertical-align: top;
+}
+
+:global .ql-size-14,
+:global .ql-picker-item[data-value="14"] {
+    font-size: 14px;
+}
+
+:global .ql-picker-label[data-value="14"]::before,
+:global .ql-picker-item[data-value="14"]::before {
+    content: '14px' !important;
+    vertical-align: top;
+}
+
+:global .ql-size-16,
+:global .ql-picker-item[data-value="16"] {
+    font-size: 16px;
+}
+
+:global .ql-picker-label[data-value="16"]::before,
+:global .ql-picker-item[data-value="16"]::before {
+    content: '16px' !important;
+    vertical-align: top;
+}
+
+:global .ql-size-18,
+:global .ql-picker-item[data-value="18"] {
+    font-size: 18px;
+}
+
+:global .ql-picker-label[data-value="18"]::before,
+:global .ql-picker-item[data-value="18"]::before {
+    content: '18px' !important;
+    vertical-align: top;
+}
+
+:global .ql-size-20,
+:global .ql-picker-item[data-value="20"] {
+    font-size: 20px;
+}
+
+:global .ql-picker-label[data-value="20"]::before,
+:global .ql-picker-item[data-value="20"]::before {
+    content: '20px' !important;
+    vertical-align: top;
+}

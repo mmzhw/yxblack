@@ -1,0 +1,11 @@
+.error-container {
+    margin: 160px auto;
+    width: 320px;
+    text-align: center;
+}
+
+.error-msg {
+    margin-top: 12px;
+    line-height: 32px;
+    font-size: 16px;
+}

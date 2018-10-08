@@ -1,0 +1,36 @@
+.label-input-title {
+    font-size: 16px;
+}
+
+.label-input-text {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+    outline: none;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.add-button-tooltip-text {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    color: #FFF;
+}
+
+.switch-label {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.validate-txt {
+    padding-top: 5px;
+    color: red;
+}

@@ -1,0 +1,34 @@
+.video-item {
+    margin-bottom: 10px;
+}
+
+.video-item .item-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.video-item .item-dot-red {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: red;
+    margin-right: 30px;
+}
+
+.video-item .item-dot-green {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: green;
+    margin-right: 30px;
+}
+
+.video-item .item-title {
+    font-size: 14px;
+}

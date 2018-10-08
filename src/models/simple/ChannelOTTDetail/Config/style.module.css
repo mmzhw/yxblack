@@ -1,0 +1,15 @@
+.configModule {
+    width: 100%;
+}
+
+.configModule > p {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px 0 20px 4%;
+}
+
+.configModule > p > span {
+    color: red;
+    font-weight: normal;
+    font-size: 18px;
+}

@@ -1,0 +1,61 @@
+.card {
+    margin: 5px 0;
+}
+
+.card .rep-box {
+    position: absolute;
+    left: 240px;
+    top: 16px;
+}
+
+.card .rep-box .rep-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card .rep-box .rep-item span {
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.card .rep-box .rep-item span.bg-red {
+    background-color: red;
+}
+
+.card .rep-box .rep-item span.bg-yellow {
+    background-color: yellow;
+}
+
+.card .form {
+    position: relative;
+}
+
+.card .form .actions {
+    position: absolute;
+    top: -2px;
+    right: 50px;
+}
+
+.card .img-upload-container {
+    text-align: center;
+}
+
+.card .grid-box {
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.up {
+    height: 30px;
+    width: 100%;
+}
+
+.up .right {
+    float: right;
+}
+
+.margin {
+    margin-right: 10px;
+}

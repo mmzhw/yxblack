@@ -1,0 +1,16 @@
+.input-item {
+    margin-bottom: 16px;
+}
+
+.advert-info {
+    display: flex;
+    border: 1px solid #CCC;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.advert-sub {
+    margin-top: 16px;
+}

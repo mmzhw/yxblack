@@ -1,0 +1,129 @@
+.bookshelf {
+    float: left;
+    width: 360px;
+    height: 540px;
+    margin: 0 10px 10px 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    background-size: 100% 100%;
+    user-select: none;
+}
+
+.bookshelf:hover {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-property: box-shadow;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.bookshelf .bookshelf-body {
+    height: 489px;
+    overflow: hidden;
+}
+
+.bookshelf .bookshelf-body .bookshelf-body-title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.bookshelf .bookshelf-body .bookshelf-body-title .body-title-item {
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.bookshelf .bookshelf-body .bookshelf-body-title .body-title-item:nth-child(1) {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.bookshelf .bookshelf-body .bookshelf-body-content {
+    height: 440px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow: scroll;
+}
+
+.bookshelf .bookshelf-body .body-content-list {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.bookshelf .bookshelf-body .body-content-list .body-content-list-item {
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookshelf .bookshelf-body .body-content-list .body-content-list-item:nth-child(1) {
+    text-align: left;
+    padding-left: 30px;
+    user-select: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookshelf .bookshelf-body .body-content-list .body-content-list-item span {
+    display: block;
+    margin-top: -50px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.bookshelf .bookshelf-body .body-content-list .label-list-button {
+    float: left;
+    width: 50%;
+    line-height: 50px;
+    margin-left: 22px;
+}
+
+.bookshelf .bookshelf-body .body-content-list .label-list-button button {
+    margin: 0;
+    padding: 0;
+    min-width: 80%;
+    height: 32px;
+    margin-top: 9px;
+}
+
+.bookshelf .bookshelf-body .body-content-list .dehaze {
+    position: absolute;
+    width: 16px;
+    min-width: 16px;
+    font-size: 14px;
+    color: #757575;
+    margin-left: 20px;
+    opacity: 0;
+}
+
+.bookshelf .bookshelf-body .body-content-list:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.bookshelf .bookshelf-body .body-content-list:hover .dehaze {
+    opacity: 1;
+}
+
+.bookshelf .bookshelf-footer {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #E5E5E5;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.bookshelf .bookshelf-footer .bookshelf-footer-actions {
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+
+.bookshelf .bookshelf-footer .bookshelf-footer-actions .footer-action {
+    height: 100%;
+    float: right;
+    text-align: center;
+}

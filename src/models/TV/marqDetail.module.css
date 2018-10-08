@@ -1,0 +1,36 @@
+.marq-detail {
+    padding: 20px;
+}
+
+.marq-detail .box-title {
+    float: right;
+    color: #A9A9A9;
+}
+
+.marq-detail .marq-pre {
+    color: #000;
+    font-size: 13px;
+    width: 100%;
+    padding-right: 11px;
+    display: inline-block;
+    text-align: right;
+}
+
+.marq-detail .curr-color {
+    cursor: pointer;
+}
+
+.marq-detail .curr-color:hover {
+    color: red;
+}
+
+.marq-detail .marq-pre-content {
+    width: 80%;
+    background: #C0C0C0;
+    font-size: 14px;
+    min-height: 50px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}

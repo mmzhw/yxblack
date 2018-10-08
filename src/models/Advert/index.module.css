@@ -1,0 +1,89 @@
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.liveitem-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.liveitem-container .advert-card {
+    width: 540px;
+    margin: 0 8px 15px;
+    overflow: hidden;
+}
+
+.liveitem-container .advert-card .card-img {
+    width: 100%;
+    height: 53px;
+}
+
+.liveitem-container .advert-card .right-corner {
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: -45px;
+    right: -45px;
+    transform: rotate(45deg);
+}
+
+.liveitem-container .advert-card .right-corner .use-corner {
+    background: #7FFF00;
+    padding-top: 50px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.liveitem-container .advert-card .right-corner .unuse-corner {
+    background: gray;
+    padding-top: 50px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.liveitem-container .advert-app-card {
+    width: 240px;
+    margin: 0 8px 15px;
+    overflow: hidden;
+}
+
+.liveitem-container .advert-app-card .card-img {
+    width: 100%;
+    height: 355px;
+}
+
+.liveitem-container .advert-app-card .right-corner {
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: -45px;
+    right: -45px;
+    transform: rotate(45deg);
+}
+
+.liveitem-container .advert-app-card .right-corner .use-corner {
+    background: #7FFF00;
+    padding-top: 50px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.liveitem-container .advert-app-card .right-corner .unuse-corner {
+    background: gray;
+    padding-top: 50px;
+    width: 85px;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+.liveitem-container .advert-no {
+    margin: 0 auto;
+    padding: 5px;
+}

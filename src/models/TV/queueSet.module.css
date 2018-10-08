@@ -1,0 +1,46 @@
+.input-item {
+    margin-bottom: 16px;
+}
+
+.episode-submit {
+    margin: 20px auto;
+}
+
+.select-video-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.select-video-item {
+    margin-right: 20px;
+}
+
+.select-video-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.select-video-item .video-oper-move {
+    display: none;
+}
+
+.select-video-item:hover .video-oper-move {
+    display: block;
+}
+
+.video-oper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.red {
+    color: red;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100px;
+    text-align: right;
+}

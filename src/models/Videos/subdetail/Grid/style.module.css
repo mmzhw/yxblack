@@ -1,0 +1,42 @@
+.grid {
+    min-width: 20px;
+    height: 34px;
+    margin: 2px;
+    padding: 0 12px;
+}
+
+.grid.red {
+    position: relative;
+}
+
+.grid.red::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    border-width: 8px;
+    border-color: red transparent transparent red;
+    border-style: solid;
+    border-top-left-radius: 4px;
+}
+
+.grid.yellow {
+    position: relative;
+}
+
+.grid.yellow::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    border-width: 8px;
+    border-color: yellow transparent transparent yellow;
+    border-style: solid;
+    border-top-left-radius: 4px;
+}

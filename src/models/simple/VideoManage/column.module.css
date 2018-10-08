@@ -1,0 +1,31 @@
+.first-col .img-wrp {
+    width: 107px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.first-col .img-wrp img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-col .txt-wrp {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.first-col .txt-wrp .name {
+    font-weight: normal;
+}
+
+.first-col .txt-wrp .sub-name {
+    font-weight: normal;
+    color: #9B9B9B;
+}
+
+.first-col .txt-wrp .video-base-id {
+    font-weight: normal;
+    color: #9B9B9B;
+}

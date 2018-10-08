@@ -1,0 +1,23 @@
+.form {
+    width: 100%;
+}
+
+.form .period-wrp {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .period-wrp .period-label {
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.form .period-wrp .period-value {
+    font-size: 20px;
+}
+
+.form .btn-wrp {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card .add-btn {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}

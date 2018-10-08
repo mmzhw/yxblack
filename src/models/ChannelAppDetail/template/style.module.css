@@ -1,0 +1,356 @@
+.clear {
+    clear: both;
+}
+
+.template-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.templateModule img {
+    display: block;
+}
+
+.tempWrap {
+    width: 440px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.tempWrap ul {
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tempWrap li {
+    position: relative;
+    margin: 5px;
+    overflow: hidden;
+    display: block;
+}
+
+.tempWrap img {
+    border: 1px dashed #ccc;
+    cursor: pointer;
+}
+
+.tempWrap span {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.tempWrap span.updateEpisode {
+    right: 30px;
+    bottom: 60px;
+}
+
+.tempWrap span.clarity {
+    left: 30px;
+    top: 40px;
+}
+
+.tempWrap span.sign {
+    right: 30px;
+    top: 40px;
+}
+
+.tempWrap .overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.layout1 img {
+    width: 400px;
+    height: 225px;
+}
+
+.layout2 ul li {
+    width: 180px;
+}
+
+.layout2 ul li img {
+    width: 180px;
+    height: 100px;
+}
+
+.layout2 ul li span.updateEpisode {
+    right: 10px;
+    bottom: 30px;
+}
+
+.layout2 ul li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout2 ul li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout3 ul li {
+    width: 120px;
+}
+
+.layout3 ul li img {
+    width: 120px;
+    height: 160px;
+}
+
+.layout3 ul li span.updateEpisode {
+    right: 10px;
+    bottom: 30px;
+}
+
+.layout3 ul li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout3 ul li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout4 ul li {
+    width: 120px;
+}
+
+.layout4 ul li img {
+    width: 120px;
+    height: 160px;
+}
+
+.layout4 ul li span.updateEpisode {
+    right: 10px;
+    bottom: 30px;
+}
+
+.layout4 ul li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout4 ul li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout4 ul li:first-child {
+    width: 380px;
+    height: auto;
+}
+
+.layout4 ul li:first-child img {
+    width: 380px;
+    height: 200px;
+}
+
+.layout4 ul li:first-child span.updateEpisode {
+    right: 10px;
+    bottom: 30px;
+}
+
+.layout4 ul li:first-child span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout4 ul li:first-child span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout5 li {
+    width: 180px;
+}
+
+.layout5 li img {
+    width: 180px;
+    height: 100px;
+}
+
+.layout5 li span.updateEpisode {
+    right: 10px;
+    bottom: 40px;
+}
+
+.layout5 li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout5 li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout5 li:first-child {
+    width: 380px;
+    height: auto;
+}
+
+.layout5 li:first-child img {
+    width: 380px;
+    height: 200px;
+}
+
+.layout5 li:first-child span.updateEpisode {
+    right: 30px;
+    bottom: 60px;
+}
+
+.layout5 li:first-child span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout5 li:first-child span.sign {
+    right: 30px;
+    top: 10px;
+}
+
+.layout9 ul li {
+    width: 180px;
+}
+
+.layout9 ul li img {
+    width: 180px;
+    height: 100px;
+    display: block;
+}
+
+.layout9 ul li span.updateEpisode {
+    right: 10px;
+    bottom: 50px;
+}
+
+.layout9 ul li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout9 ul li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout9 ul li.lastItem {
+    width: 370px;
+    height: auto;
+}
+
+.layout9 ul li.lastItem img {
+    width: 370px;
+    overflow: hidden;
+}
+
+.layout9 ul li.lastItem div:nth-child(1) {
+    width: 180px;
+    text-align: left;
+    float: left;
+}
+
+.layout9 ul li.lastItem div:nth-child(1) {
+    width: 180px;
+    text-align: right;
+}
+
+.layout9 ul li.lastItem div p {
+    width: 80px;
+    background: #D8D8D8;
+    display: inline-block;
+    color: #FFF;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 0 10px 10px;
+}
+
+.layout9 ul li:nth-child(1),
+.layout9 ul li:nth-child(2) {
+    height: auto;
+    width: 370px;
+}
+
+.layout9 ul li:nth-child(1) div,
+.layout9 ul li:nth-child(2) div {
+    width: 270px;
+    float: left;
+}
+
+.layout9 ul li:nth-child(1) img,
+.layout9 ul li:nth-child(2) img {
+    width: 18px;
+    height: 18px;
+    float: right;
+    display: block;
+    background: none;
+}
+
+.layout8 ul li {
+    width: 180px;
+}
+
+.layout8 ul li img {
+    width: 180px;
+    height: 100px;
+}
+
+.layout8 ul li span.updateEpisode {
+    right: 10px;
+    bottom: 30px;
+}
+
+.layout8 ul li span.clarity {
+    left: 10px;
+    top: 10px;
+}
+
+.layout8 ul li span.sign {
+    right: 10px;
+    top: 10px;
+}
+
+.layout8 ul li:nth-child(1) {
+    height: auto;
+    width: 370px;
+}
+
+.layout8 ul li:nth-child(1) div {
+    width: 270px;
+    float: left;
+}
+
+.layout8 ul li:nth-child(1) img {
+    width: 18px;
+    height: 18px;
+    float: right;
+    display: block;
+    background: none;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.14), 0 1px 18px rgba(0, 0, 0, 0.12);
+}
+
+.overflow {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

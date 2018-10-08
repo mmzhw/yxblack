@@ -1,0 +1,54 @@
+.basic-info {
+    max-width: 600px;
+    width: 600px;
+}
+
+.basic-info .basic-url {
+    position: relative;
+}
+
+.basic-info .basic-url .url-copy {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.basic-info .basic-url .basic-copy {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    margin-left: 10px;
+    color: #4A90E2;
+    display: inline-block;
+    float: right;
+}
+
+.basic-info .basic-url .basic-copy:hover {
+    font-weight: bold;
+}
+
+.basic-info .basic-title {
+    padding: 20px 0;
+}
+
+.basic-img,
+.img-info-radio {
+    padding-bottom: 17px;
+}
+
+.basic-img {
+    max-width: 950px;
+    min-width: 700px;
+}
+
+.color-input {
+    display: block;
+    width: 200px;
+    height: 180px;
+}
+
+.img-info-button {
+    margin: 20px 0 0 1%;
+}

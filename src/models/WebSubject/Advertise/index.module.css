@@ -1,0 +1,36 @@
+.advert {
+    padding: 30px;
+    border: 1px solid #DDD;
+}
+
+.advert .advert-title {
+    padding: 20px 0;
+}
+
+.advert .advert-img {
+    width: 590px;
+    line-height: 60px;
+    background-color: #EEE;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.advert .advert-img-w {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.advert .advert-img-w .advert-img-l {
+    border-right: 2px dashed #FFF;
+}
+
+.advert-img-l,
+.advert-img-r {
+    width: 295px;
+    display: inline-block;
+    background: #EEE;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}

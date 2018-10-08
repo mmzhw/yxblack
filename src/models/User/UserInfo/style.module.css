@@ -1,0 +1,21 @@
+.controlline {
+    height: 10px;
+}
+
+.buttonLeft {
+    display: inline-block;
+    width: 8.3%;
+}
+
+.buttonLeft button {
+    float: right;
+    margin-right: 10px;
+}
+
+.buttonRight {
+    display: inline-block;
+}
+
+.buttonRight button {
+    float: left;
+}

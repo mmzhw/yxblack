@@ -1,0 +1,22 @@
+.card {
+    margin: 5px 0;
+}
+
+.card-model {
+    width: 280px;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.select {
+    border: none;
+}
+
+.input {
+    border: none;
+    width: 270px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,40 @@
+.p-src-item {
+    margin: 6px 0;
+}
+
+.src-icon {
+    display: inline-block;
+    width: 60px;
+    position: relative;
+}
+
+.src-link {
+    display: inline-block;
+    margin: 0 30px;
+    width: 300px;
+}
+
+.src-action {
+    display: inline-block;
+}
+
+.src-action button {
+    margin: 0 8px;
+}
+
+.src-model {
+    width: 280px;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.img {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}

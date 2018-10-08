@@ -1,0 +1,61 @@
+/* stylelint-disable */
+.channel-layout {
+    width: 200px;
+    border: 1px solid #DDD;
+}
+
+.card-header {
+    height: 93px;
+    padding: 16px;
+    border-bottom: 1px solid #CCC;
+}
+
+.card-header-title {
+    font-size: 24px;
+}
+
+.card-header-sub {
+    font-size: 14px;
+}
+
+.card-content {
+    height: 100%;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-topic-container {
+    margin: 0 auto;
+    width: 100%;
+    flex: auto;
+}
+
+.channel-layout button {
+    width: 150px;
+    height: 40px;
+    margin: 10px 0 0 20px;
+}
+
+.topic-btn {
+    margin: 10px 0;
+}
+
+.btn-container {
+    width: 100%;
+}
+
+.channel-btn-container {
+    margin-top: 600px;
+}
+
+.current-button {
+    background: #108EE9;
+    color: #FFF;
+}
+
+.current-button:hover,
+.current-button:focus {
+    color: #FFF;
+    background-color: #108EE9;
+}

@@ -1,0 +1,49 @@
+.review-content {
+    margin: 20px auto;
+}
+
+.review-content .review-content-item {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s linear;
+    margin: 16px;
+    border: 1px solid #CCC;
+}
+
+.review-content .review-content-item > .to-detail {
+    color: rgba(0, 0, 0, 0.65);
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+}
+
+.review-content .review-content-item > .to-detail .image > img {
+    width: 100%;
+    height: 260px;
+}
+
+.review-content .review-content-item > .to-detail .title {
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.review-content .review-content-item > .to-detail .desc {
+    color: #FFF;
+    height: 40px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    padding: 15px 0 5px 7px;
+    background-color: #000;
+    border-bottom: 1px solid #CCC;
+}
+
+.review-content .review-content-item:hover {
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0, -5px, 5px);
+}

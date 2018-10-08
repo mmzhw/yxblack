@@ -1,0 +1,55 @@
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.filter-container {
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.filter-itemwrap {
+    display: flex;
+    width: 100%;
+}
+
+.label-name {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    min-width: 70px;
+    text-align: right;
+}
+
+.filter-item {
+    float: left;
+    flex: 1;
+    font-size: 14px;
+    line-height: 40px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.filter-sub-item {
+    float: left;
+    margin-left: 5px;
+}
+
+.filter-sub-item > span {
+    cursor: pointer;
+    font-weight: 200;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 3px 5px;
+}
+
+.filter-sub-item.highlight > span {
+    color: #FFF;
+    background: #49A9EE;
+}

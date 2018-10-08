@@ -1,0 +1,63 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #909;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #909;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #909;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #909;
+}
+
+.videoDetailControl {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.videoDetailControl .videoOperationLeft {
+    width: 12.5%;
+    text-align: right;
+    display: inline-block;
+}
+
+.videoDetailControl .videoOperationLeft span {
+    line-height: 28px;
+}
+
+.videoDetailControl button {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.videoDetailControl input {
+    padding: 3px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.videoDetailControl input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.videoDetailControl input:-moz-placeholder {
+    color: #999;
+}
+
+.videoDetailControl input::-moz-placeholder {
+    color: #999;
+}
+
+.videoDetailControl input:-ms-input-placeholder {
+    color: #999;
+}
+
+.fillter {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
